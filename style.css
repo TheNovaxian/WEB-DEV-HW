@@ -1,0 +1,115 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    list-style: none;
+    margin:0 1.5rem 1.5rem 1.5rem;
+}
+
+.logo{
+    max-width: 150px;
+    display: flex;
+}
+
+nav,
+.m2,
+.menu{
+    display: flex;
+    align-items: center;
+}
+ li{
+    list-style: none;
+ }
+
+.m2{
+    display: flex;
+}
+
+.menu li,
+.m2 li{
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    color: hsl(0, 0%, 41%);
+}
+
+.m2 li:nth-last-child(1){
+    border: 1px solid gray;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+main h1{
+    font-size: 3rem;
+}
+
+main p{
+    font-size: 0.7rem;
+    width: 18rem;
+    color: hsl(0, 0%, 41%);
+    line-height: 0.9rem;
+}
+
+main button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+#content{
+    margin-top: 3rem;
+}
+
+#side-img{
+    width: 20rem;
+    flex-direction: row;
+    display: flex-end;
+}
+
+@media (min-width: 300px) and (max-width:480px){
+ *{
+    font-size: 1rem;
+ }
+  
+ body{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+
+}
+
+nav{
+    margin:0 1.5rem 0 1.5 rem;
+}
+
+nav ul{
+    display: none;
+}
+
+.mobile-nav{
+    display: block;
+    margin-right: 2rem;
+}
+
+main{
+    display: flex;
+    grid-template-columns: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer{
+    text-align: center;
+}
