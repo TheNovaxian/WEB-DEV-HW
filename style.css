@@ -93,6 +93,8 @@ main button{
     width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
  }
 
 }
